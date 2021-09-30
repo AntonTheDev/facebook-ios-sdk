@@ -365,8 +365,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
 			requirement = {
-				branch = HEAD;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
